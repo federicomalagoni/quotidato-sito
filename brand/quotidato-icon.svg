@@ -1,0 +1,33 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="qAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0284c7" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- SQUIRCLE BACKGROUND NOBILE -->
+  <rect width="64" height="64" rx="16" fill="url(#qBg)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" stroke="#334155" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- MONOGRAMMA "Q" EDITORIALE E GEOMETRICO -->
+  <!-- Anello principale della Q in bianco puro ad altissima visibilità -->
+  <path d="M 31 11 C 19.954 11 11 19.954 11 31 C 11 42.046 19.954 51 31 51 C 36.425 51 41.353 48.847 44.957 45.343 L 39.878 40.264 C 37.604 42.484 34.464 43.857 31 43.857 C 23.899 43.857 18.143 38.101 18.143 31 C 18.143 23.899 23.899 18.143 31 18.143 C 38.101 18.143 43.857 23.899 43.857 31 C 43.857 33.722 43.014 36.248 41.572 38.328 L 46.85 43.606 C 49.435 40.088 51 35.726 51 31 C 51 19.954 42.046 11 31 11 Z" fill="#ffffff"/>
+
+  <!-- CODA DINAMICA DELLA "Q" (DIAGONALE ASCENDENTE/RADAR IN BLU ELETTRICO) -->
+  <path d="M 36.5 35.5 L 49.5 48.5 C 50.8 49.8 53 48.8 53 47 L 53 42 C 53 41.2 52.6 40.4 52 39.8 L 43.5 31.3 C 41.8 33.2 39.3 34.7 36.5 35.5 Z" fill="url(#qAccent)" filter="url(#subtleGlow)"/>
+
+  <!-- PUNTO FOCALE / RADAR AL CENTRO -->
+  <circle cx="31" cy="31" r="3.5" fill="url(#goldAccent)"/>
+</svg>
